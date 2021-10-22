@@ -1,0 +1,110 @@
+/* styles from TP4 */
+
+#titleBanner {
+  positon: relative;
+  width: 100%;
+  height: 5vh;
+  background-size: cover;
+  background-postion: center center;
+  box-shadow: 0px 3px 3px rbga(0, 0, 0, 0.7);
+}
+
+#titleBanner h1 {
+  font-family: Arial, serif;
+  color: red;
+  text-transform: uppercase;
+  font-size: 350%;
+  padding: 0;
+  margin: 0 0 2vw 2vw;
+  positon: absolute;
+  bottom: 0;
+  left: 0;
+  text-shadow: 0px 8px 8px #000000;
+  line-height: 80%;
+}
+
+#titleBanner h1.tp6 {
+  color: orange;
+}
+
+h4 {
+  margin: 0;
+  color: white;
+  font-family: Times;
+  font-size: 30px;
+  background-image: linear-gradient(red, yellow);
+}
+
+.selected {
+  color: red;
+  font-family: Brush Script MT;
+  font-size: 25px;
+}
+
+#copyright {
+  font-family: Arial;
+  font-size: 9px;
+  font-style: italic;
+}
+
+#menu li {
+  font-size: 20px;
+}
+
+div {
+  display: inline-block;
+  width: 100vw;
+  padding: 1vw;
+}
+
+#block1 {
+  display: block;
+}
+
+#block2: {
+  display: block;
+}
+
+#block3: {
+  display: block;
+}
+
+ul,
+ol {
+  display: none;
+}
+
+ul.showMe,
+ol.showMe {
+  display: block;
+}
+
+/* @media (orientation: landscape) {
+  div {
+    width: calc(100vw/3 -1vw);
+  }
+} */
+
+@media (orientation: landscape) {
+  div {
+    width: calc(100vw/3 - 3vw);
+    float: left;
+  }
+}
+
+@media (orientation: portrait) {
+  div {
+    width: calc(100vw);
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+img {
+  width: 100%;
+  height: 500px;
+}
