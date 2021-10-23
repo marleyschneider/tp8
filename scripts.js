@@ -46,18 +46,25 @@ function Recipe(recipeName, contributorName, imageURL, ingredientsFilename, equi
 
     document.querySelector("#titleBanner h1").innerHTML = this.recipe;
     document.querySelector("#contributor").innerHTML = this.contributor;
-    document.querySelector("titleBanner h1").style.backgroundImage = "url(" + this.img + ")";
+    document.querySelector("titleBanner").style.backgroundImage = "url(" + this.img + ")";
 
     loadFileInto(this.ingredients, "#Ingredients ul");
     loadFileInto(this.equipment, "#Equipment ul");
     loadFileInto(this.directions, "#Directions ol");
 
-    
-    
-    
-    
   }
 
+  this.displayRecipe = function() {
+
+    document.querySelector("#titleBanner h1").innerHTML = this.recipe;
+    document.querySelector("#contributor").innerHTML = this.contributor;
+    document.querySelector("titleBanner").style.backgroundImage = "url(" + this.img + ")";
+
+    loadFileInto(this.ingredients, "#Ingredients ul");
+    loadFileInto(this.equipment, "#Equipment ul");
+    loadFileInto(this.directions, "#Directions ol");
+
+  }
 }
 
 BestBigChewyChocolateChipCookie = new Recipe("Best Big, Fat, Chewy Chocolate Chip Cookie", "Marley", "https://images.unsplash.com/photo-1582385760710-4300982782c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80", "ingredients.html", "equipment.html", "directions.html");
