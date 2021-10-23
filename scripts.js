@@ -58,7 +58,7 @@ function Recipe(recipeName, contributorName, imageURL, ingredientsFilename, equi
 
     document.querySelector("#titleBanner h1").innerHTML = this.recipe;
     document.querySelector("#contributor").innerHTML = this.contributor;
-    document.querySelector("titleBanner").style.backgroundImage = "url(" + this.img + ")";
+    document.querySelector("#titleBanner").style.backgroundImage = "url(" + this.img + ")";
 
     loadFileInto(this.ingredients, "#Ingredients ul");
     loadFileInto(this.equipment, "#Equipment ul");
