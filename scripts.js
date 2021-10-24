@@ -70,10 +70,10 @@ function Recipe(recipeName, contributorName, imageURL, ingredientsFilename, equi
 BestBigChewyChocolateChipCookie = new Recipe("Best Big, Fat, Chewy Chocolate Chip Cookie", "Marley", "https://images.unsplash.com/photo-1582385760710-4300982782c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80", "ingredients.html", "equipment.html", "directions.html");
 AnotherRecipe = new Recipe();
 
-SaskiasCauliflowerMac = new Recipe("Saskia's Cauliflower Mac", "Saskia", "https://images.unsplash.com/photo-1543339494-b4cd4f7ba686?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80", "ingredientsS.html", "directionsS.html", "equipmentS.html");
+SaskiasCauliflowerMac = new Recipe("Saskia's Cauliflower Mac", "Saskia", "https://images.unsplash.com/photo-1543339494-b4cd4f7ba686?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80", "ingredientsS.html", "equipmentS.html", "directionsS.html");
 AnotherRecipe = new Recipe();
 
-RachelsFrenchCrepes = new Recipe("Rachels French Crepes", "Rachel", "https://media.istockphoto.com/photos/arc-de-triomphe-paris-picture-id135034702?b=1&k=20&m=135034702&s=170667a&w=0&h=Y6w6ohcqRzhNQBFyQPCPAUyzzvVbcSLl9Esa2AwUX4o=", "ingredientsR.html", "directionsR.html", "equipmentR.html");
+RachelsFrenchCrepes = new Recipe("Rachels French Crepes", "Rachel", "https://media.istockphoto.com/photos/arc-de-triomphe-paris-picture-id135034702?b=1&k=20&m=135034702&s=170667a&w=0&h=Y6w6ohcqRzhNQBFyQPCPAUyzzvVbcSLl9Esa2AwUX4o=", "ingredientsR.html", "equipmentR.html", "directionsR.html");
 AnotherRecipe = new Recipe();
 
 window.onload = function() {
